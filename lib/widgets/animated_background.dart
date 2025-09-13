@@ -38,7 +38,7 @@ class AnimatedBackground extends StatelessWidget {
               decoration: BoxDecoration(
                 gradient: RadialGradient(
                   colors: [
-                    AppTheme.primaryColor.withOpacity(0.1),
+                    AppTheme.primaryColor.withValues(alpha: 0.1),
                     Colors.transparent,
                   ],
                 ),
@@ -59,7 +59,7 @@ class AnimatedBackground extends StatelessWidget {
               decoration: BoxDecoration(
                 gradient: RadialGradient(
                   colors: [
-                    AppTheme.secondaryColor.withOpacity(0.1),
+                    AppTheme.secondaryColor.withValues(alpha: 0.1),
                     Colors.transparent,
                   ],
                 ),

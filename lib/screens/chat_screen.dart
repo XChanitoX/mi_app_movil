@@ -147,8 +147,8 @@ class _ChatScreenState extends State<ChatScreen> {
                 decoration: BoxDecoration(
                   gradient: LinearGradient(
                     colors: [
-                      AppTheme.primaryColor.withOpacity(0.8),
-                      AppTheme.secondaryColor.withOpacity(0.8),
+                      AppTheme.primaryColor.withValues(alpha: 0.8),
+                      AppTheme.secondaryColor.withValues(alpha: 0.8),
                     ],
                   ),
                   borderRadius: BorderRadius.circular(14),
@@ -241,8 +241,8 @@ class _ChatScreenState extends State<ChatScreen> {
               decoration: BoxDecoration(
                 gradient: LinearGradient(
                   colors: [
-                    AppTheme.primaryColor.withOpacity(0.8),
-                    AppTheme.secondaryColor.withOpacity(0.8),
+                    AppTheme.primaryColor.withValues(alpha: 0.8),
+                    AppTheme.secondaryColor.withValues(alpha: 0.8),
                   ],
                 ),
                 borderRadius: BorderRadius.circular(10),
@@ -268,7 +268,7 @@ class _ChatScreenState extends State<ChatScreen> {
                 color: isFromCurrentUser ? null : AppTheme.surfaceColor,
                 borderRadius: BorderRadius.circular(20),
                 border: !isFromCurrentUser
-                    ? Border.all(color: AppTheme.borderColor.withOpacity(0.3))
+                    ? Border.all(color: AppTheme.borderColor.withValues(alpha: 0.3))
                     : null,
               ),
               child: Column(

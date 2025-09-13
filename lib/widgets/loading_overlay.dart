@@ -28,7 +28,7 @@ class LoadingOverlay extends StatelessWidget {
                 decoration: BoxDecoration(
                   color: AppTheme.surfaceColor,
                   borderRadius: BorderRadius.circular(16),
-                  border: Border.all(color: AppTheme.borderColor.withOpacity(0.3)),
+                  border: Border.all(color: AppTheme.borderColor.withValues(alpha: 0.3)),
                 ),
                 child: Column(
                   mainAxisSize: MainAxisSize.min,

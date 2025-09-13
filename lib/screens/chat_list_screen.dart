@@ -167,8 +167,8 @@ class _ChatListScreenState extends State<ChatListScreen> {
                       decoration: BoxDecoration(
                         gradient: LinearGradient(
                           colors: [
-                            AppTheme.primaryColor.withOpacity(0.8),
-                            AppTheme.secondaryColor.withOpacity(0.8),
+                            AppTheme.primaryColor.withValues(alpha: 0.8),
+                            AppTheme.secondaryColor.withValues(alpha: 0.8),
                           ],
                         ),
                         borderRadius: BorderRadius.circular(16),
